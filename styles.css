@@ -215,3 +215,31 @@ nav h3{
     text-align: center;
     padding-top: 50px;
 }
+/* Sponsor section */
+.sponsor{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+.sponsor h2{
+    text-align: center;
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+.sponsor p{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+    filter: grayscale(100%);
+}

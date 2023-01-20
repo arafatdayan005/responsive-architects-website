@@ -102,7 +102,7 @@ nav h3{
 }
 .quick-list p{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 26px;
     color: #727272;
 }
@@ -165,11 +165,11 @@ nav h3{
     height: 200px;
     width: 342px;
     border-radius: 8px 8px;
-    position: absolute;
+    position: relative;
     width: 342px;
     height: 200px;
-    left: 880px;
-    top: 3104px;
+    left: 100px;
+    bottom: 150px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .btnyr{
@@ -194,7 +194,7 @@ nav h3{
 .facts-p{
     color: #727272;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 26px;
     margin-top: 25px;
 }
@@ -214,6 +214,10 @@ nav h3{
     width: 240px;
     text-align: center;
     padding-top: 50px;
+    transition: margin 0.2s ease-in-out;
+}
+.card:hover{
+    margin: -2;
 }
 /* Sponsor section */
 .sponsor{
@@ -271,6 +275,13 @@ nav h3{
         margin: 0 auto;
         padding-top: 30px;
     }
+    .nav ul{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        padding-top: 30px;
+    }
     .quick-list{
         width: 100%;
         display: grid;
@@ -282,6 +293,7 @@ nav h3{
         grid-template-columns: repeat(1, 1fr);
     }
     .quick-feature{
+        margin-left: 0px;
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
